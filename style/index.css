@@ -1,0 +1,13 @@
+@import "./components/reset.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/common.css";
+@import "./fonts/fonts.css";
+@import "./components/hero.css";
+@import "./components/logos.css";
+@import "./components/management.css";
+@import "./components/opportunities.css";
+@import "./components/ownersNumbers.css";
+@import "./components/compensation.css";
+@import "./components/quoteCEO.css";
+@import "./components/prefooter.css";

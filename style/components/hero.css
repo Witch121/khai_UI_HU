@@ -1,0 +1,39 @@
+.intoduction_hero {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    align-content: center;
+    justify-items: center;
+}
+.hero_pic1 {
+    grid-area: 1/ 1/ 2/ 2;
+}
+.hero_pic2 {
+    grid-area: 2/ 1/ 3/ 2;
+}
+.hero_pic3 {
+    grid-area: 1/ 3/ 2/ 4;
+}
+.hero_pic4 {
+    grid-area: 2/ 3/ 3/ 4;
+}
+.hero_title{
+    grid-area: 1/ 2/ 2/ 3;
+    text-align: center;
+}
+.hero_text{
+    grid-area: 2/ 2/ 3/ 3;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .intoduction_hero {
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .intoduction_hero {
+        margin-top: 0.5rem;
+    }
+}

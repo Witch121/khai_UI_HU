@@ -1,0 +1,39 @@
+.quote_ceo {
+    background-color: #E2EEF3;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+}
+.ceo_title {
+    font-size: 27px;
+    padding: 4rem;
+}
+.ceo_description {
+    line-height: 2;
+}
+@media screen and (max-width: 768px) {
+    .ceo_title {
+        font-size: 23px;
+        padding: 3rem;
+    }
+    .quote_ceo {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 3rem;
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .ceo_title {
+        font-size: 17px;
+        padding: 2rem;
+    }
+    .quote_ceo {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,68 @@
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    }
+a:hover {
+    text-decoration: underline;
+}
+body.disable-scroll {
+    overflow: hidden;
+    }
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+li {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-size: 15px;
+}
+p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 400;
+}
+.subtitle {
+    font-size: 28px;
+    font-weight: 400;
+}
+body.disable-scroll {
+    overflow: hidden;
+    }
+@media screen and (max-width: 768px) {
+    .subtitle {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    li {
+        font-size: 10px;
+    }
+    p {
+        font-size: 15px;
+    }
+    a {
+        font-size: 9px;
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (max-width: 480px) {
+    .subtitle {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    li {
+        font-size: 7px;
+    }
+    p {
+        font-size: 10px;
+    }
+    a {
+        font-size: 5px;
+    }
+}

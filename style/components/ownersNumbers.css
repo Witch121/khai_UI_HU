@@ -1,0 +1,24 @@
+.owners_numbers {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.big_numbers {
+    display: flex;
+    align-self: center;
+    font-size: 69px;
+    border: 1px solid black;
+    width: fit-content;
+}
+@media screen and (max-width: 768px) {
+    .big_numbers {
+        font-size: 58px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .big_numbers {
+        font-size: 45px;
+    }
+}

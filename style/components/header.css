@@ -1,0 +1,106 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+.main_logo {
+    display: flex;
+    align-self: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav .nav_btn .nav-item .link {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: DM_Sans, sans-serif, Arial;
+    }
+.nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+.nav-item {
+    margin: 0;
+}
+.nav-item .btn{
+    margin: 0.5;
+}
+.nav_btn {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        }
+.btn {
+        border-radius: 0.375rem;
+        margin: 0.5rem;
+        display: flex;
+        padding: 0.5rem;
+    }
+.btn-dark {
+        background-color: #101010;
+        color: #F5F5F5;
+        border-radius: 1rem;
+        padding: 0.5rem;
+    }
+.btn-light {
+        color: #101010;
+    }
+
+.dropdown {
+    display: none;
+}
+.link_list {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.link_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        margin-top: 1rem;
+    }
+    .nav_btn {
+        display: none;
+    }
+    .main_logo {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        max-width: 80%;
+    }
+    .dropdown-content {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        text-align: center;
+    }
+    .dropdown-content .btn{
+        font-size: 15px;
+    }
+    .noneDropdown {
+        display: none;
+    }
+}
+ @media screen and (max-width: 480px) {
+    .main_logo {
+        display: none;
+    }
+}
+    
